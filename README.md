@@ -1,1 +1,1 @@
-* this my 2nd repo
+this my 2nd repo
