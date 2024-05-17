@@ -1,79 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://js.hscta.net/cta/current.js" defer></script>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://js.hscta.net/cta/current.js" defer></script>
+
 </head>
+
 <body>
-    
-      
-      <section class="accordion accordion--radio">
-        <div class="tab">
-          <input type="radio" name="accordion-2" id="rd1">
-          <label for="rd1" class="tab__label">Radio</label>
-          <div class="tab__content">
-            <p>If you want to have only one tab open, you can use <code>&lt;input type="checkbox"&gt;</code>.</p>
-          </div>
-        </div>
-        <div class="tab">
-          <input type="radio" name="accordion-2" id="rd2">
-          <label for="rd2" class="tab__label">Open single</label>
-          <div class="tab__content">
-            <p>But if you wanna close the opened tab, you must add a "close" button somewhere, like the one below, that is just another styled radio input.</p>
-          </div>
-        </div>
-        <div class="tab">
-          <input type="radio" name="accordion-2" id="rd3">
-          <label for="rd3" class="tab__close">Close open tab &times;</label>
-        </div>
-      </section>
 
 
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content-panel">
 
-      <div class="accordion">
-        <div class="accordion-item">
-          <div class="accordion-header">
-            Item 1
-            <span class="icon">&#x25B6;</span>
-          </div>
-          <div class="accordion-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan neque condimentum leo interdum, et gravida orci porttitor. 
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">
-            Item 2
-            <span class="icon">&#x25B6;</span>
-          </div>
-          <div class="accordion-content">
-            Aliquam erat volutpat. In a odio eu lacus varius malesuada. Nulla eu facilisis felis. Integer eu magna vel risus tincidunt aliquet. 
-          </div>
-        </div>
-        <div class="accordion-item">
-          <div class="accordion-header">
-            Item 3
-            <span class="icon">&#x25B6;</span>
-          </div>
-          <div class="accordion-content">
-            Curabitur varius magna in mauris mattis, ut sagittis orci sagittis. In vitae elementum tellus. Fusce sed venenatis ipsum, in congue quam. 
+          <a href="https://nanashake.com/" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/02/Nanashake-Toronto-Tamara-Al-Dip.jpg"
+              alt="Nanashake, Toronto, Tamara Al Dip" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="https://nanashake.com/" target="_blank" rel="noopener"
+                aria-label="Nanashake, Toronto, Tamara Al Dip">Nanashake</a>, Toronto, Tamara Al Dip</h3>
+                Nanashake™ started as a personal quest to create a delicious ice cream alternative that the entire family can enjoy. Co-founded in 2015 by Tamara, they are a family-run business based out of Toronto, proudly making NanaPops™ ice cream bars. They are naturally sweetened with organic bananas and made with plant-based ingredients that will satisfy your sweet tooth while also providing value and supporting an active lifestyle. NanaPops™ have been dubbed “Smoothie-on-a-Stick” by its customers.
+
           </div>
         </div>
       </div>
-      <script>
-        const accordionItems = document.querySelectorAll(".accordion-item");
+      <div class="col-md-4">
+        <div class="content-panel">
 
-accordionItems.forEach(item =>
-  item.addEventListener("click", () => {
-    const isItemOpen = item.classList.contains("open");
-    accordionItems.forEach(item => item.classList.remove("open"));
-    if (!isItemOpen) {
-      item.classList.toggle("open");
-    }
-  })
-);
-      </script>
+          <a href="https://tonicakombucha.com/" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/Tonica_Kombucha-Toronto-Zoey-Shamai.jpg"
+              alt="Tonica Kombucha, Toronto, Zoey Shamai" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="https://tonicakombucha.com/" target="_blank" rel="noopener"
+                aria-label="Tonica Kombucha, Toronto, Zoey Shamai">Tonica Kombucha</a>, Toronto, Zoey Shamai</h3>
+                From a humble kitchen venture to becoming a nationally sold  kombucha brand in Canada, Zoey's journey has been nothing short of remarkable. Brewed and bottled in Toronto, her mission was to transform the bold flavors of kombucha into a light and refreshing beverage . Now, everyone can savour the delicious taste while reaping the benefits of kombucha.
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="https://comebacksnacks.com/" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/02/Comeback-Snacks-Mississauga-Emily-OBrien-.jpg"
+              alt="Comeback Snacks, Mississauga, Emily O'Brien " /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="https://comebacksnacks.com/" target="_blank" rel="noopener"
+                aria-label="Comeback Snacks, Mississauga, Emily O'Brien ">Comeback Snacks</a>, Mississauga, Emily O'Brien</h3>
+                Comeback Snacks was started while its founder, Emily O'Brien, was in prison. After trying lemon pepper and dill flavoured popcorn, it opened up a new world for Emily to explore. With no access to internet, she began building her company, creating fun yet delicious popcorn flavours with unconventional foods. Since then, it has been the company's mission to raise awareness for giving people second chances and to support reintegration programs. They make every bag with conviction, combining quality ingredients to make delicious snacks.
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="#" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/Sober_Carpenter-London-Nicolas-Gagnon.jpg"
+              alt="Sober Carpenter, London, Nicolas Gagnon" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="#" target="_blank" rel="noopener"
+                aria-label="ZoRaw Chocolate, Toronto, Gigi Gill">Sober Carpenter</a>, London, Nicolas Gagnon</h3>
+                Sober Carpenter is a microbrewery dedicated to brewing premium non-alcoholic craft beer founded by Nicolas Gagnon in 2019. The combination of high-quality ingredients and a true craft production process, makes for a tasty non-alcoholic beer! Leading in the non-alcoholic category through premium quality and innovation, Sober Carpenter developed the first organic certified non-alcoholic beer in North America. 100% Craft. 0% Guilt.
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="#" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/Cedar_Valley-Windsor-Ameen-Fadel-and-Surria-Fadel.jpg"
+              alt="Cedar Valley, Windsor, Ameen, Fadel and Surria Fadel" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="#" target="_blank" rel="noopener"
+                aria-label="Firecracker Sauce, Toronto, Carmen McCracken">Cedar Valley, Windsor</a>, Ameen, Fadel and Surria Fadel</h3>
+                Founded by Ameen Fadel at the age of 16 in Lakeshore, ON, Cedar Valley Selections began with the creation of Canada’s first bottled Fattoush Salad Dressing. With a small grant from Ameen’s school board and his mom’s signature recipe, he had all he needed to begin his venture. Today, Ameen and his mom are on a mission to bring Canadian families tasty alternatives through unique flavours and quality ingredients.
+
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="#" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/Rawcology_Toronto-Tara-Tomulka–Megan-Loach-Tomulka-Laura-Powadiuk.jpg"
+              alt="Rawcology, Toronto, Tara Tomulka, Megan Loach Tomulka, Laura Powadiuk" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="#" target="_blank" rel="noopener"
+                aria-label="Deliciously Wickt, Wellandport, Victoria Greene">Rawcology</a>, Toronto, Tara Tomulka, Megan Loach Tomulka, Laura Powadiuk</h3>
+                Rawcology is a Toronto based, family owned, and female founded company on a mission to empower everyone to live healthier and happier lives. Rawcology’s organic, plant-based, allergy friendly and low sugar Oat Clusters, Grain Free Granolas and Coconut Chips are not your typical snacks.
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="#" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/Peacasa_Toronto-Victor-Aaron.jpg"
+              alt="Peacasa, Toronto, Victor & Aaron" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="#" target="_blank" rel="noopener"
+                aria-label="From Farm to Table, Cambridge, Becky Smollett">Peacasa</a>, Toronto, Victor & Aaron</h3>
+                Victor grew up between Ontario and the South of France and always dreamed of bringing the best parts of the Mediterranean food culture to Canada. Aaron grew up near Toronto and was obsessed with experimenting in the kitchen to make healthier versions of his favourite snacks. They met in University and after graduating, decided to go on an adventure to the heart of the Mediterranean. After 12 days traversing the mountains of Corsica on the GR20 trail, they visited a street market in the South of France. Victor introduced Aaron to a traditional snack enjoyed in the Mediterranean for centuries: a delicious wood-fired crepe made from chickpeas and olive oil called Socca. They agreed they had to bring it to Canada and started a journey to transform this chickpea snack into a delicious chip. They spent a year experimenting with hundreds of different recipes and sold the chips at farmers markets in Toronto.
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content-panel">
+
+          <a href="#" target="_blank" rel="noopener"><img
+              src="/wp-content/uploads/2024/05/WakeWater_Toronto-Scott-Currie.jpg"
+              alt="WakeWater, Toronto, Scott Currie" /></a>
+          <div class="panel-text">
+            <h3><a class="heading_style" href="#" target="_blank" rel="noopener"
+                aria-label="Happy Pops, Toronto, Leila Keshavjee">WakeWater</a>, Toronto, Scott Currie</h3>
+                WakeWater was born from a need for something that energized us but wasn’t a regular ol’ cup of joe or a sugary energy drink. We knew that we needed a boost to get through the day but we didn’t want the crash. So, since we couldn’t find what we were looking for, we decided to do it ourselves. We knew our team could create a beverage that was refreshing and was something we could feel good about, so we jumped in and created WakeWater. Fast forward to today and you can find WakeWater across the country as we continue to grow on our path to help Canadians energize without compromise. At WakeWater, we believe that sometimes we all need a little bit of a boost to accomplish even the little victories in life.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
